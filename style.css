@@ -10,7 +10,7 @@
 body {
   display: flex;
   flex-direction: column;
-  /* width: 1440px; */
+  width: 1440px;
 }
 
 p {
@@ -18,7 +18,7 @@ p {
 }
 
 .upper {
-  padding: 11px;
+  padding: 22px 208px;
   background-color: #1f2937;
 }
 
@@ -32,101 +32,98 @@ p {
 .header > .logo,
 .sign-up-box > .left > h3 {
   color: #f9faf8;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .header > .links {
   display: flex;
-  gap: 8px;
-  font-size: 8px;
+  gap: 32px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
 .sub-middle {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 60px 0;
-  gap: 32px;
+  margin: 48px 0;
+  gap: 24px;
 }
 
-.sub-middle > .left {
-  /* flex: 1 1 0; */
-  text-align: center;
-}
-
+.sub-middle > .left,
 .sub-middle > img {
-  max-width: 85%;
-  overflow: hidden;
+  flex: 1 1 0;
 }
 
-.sub-middle > .left > h1 {
-  color: #f9faf8;
-  font-size: 24px;
-  font-weight: 800;
-  margin: 0;
-}
+  .sub-middle img {
+    overflow: hidden;
+  }
 
-.sub-middle > .left > p {
-  color: #e5e7eb;
-  font-size: 9px;
-  margin: 2px 24px 6px 24px;
-}
+  .left > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .left > p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 14px;
+  }
 
 button {
   background-color: #3882f6;
-  border-radius: 4px;
+  border-radius: 8px;
   border: none;
   color: #e5e7eb;
-  font-size: 9px;
+  font-size: 17px;
   font-weight: 600;
-  padding: 5px 17px;
+  padding: 9px 34px;
 }
 
 .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .middle > h2 {
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 800;
   color: #1f2937;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   margin-top: 0;
 }
 
-.middle > ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 0;
-  margin: 0 15px;
-  gap: 24px;
-}
+  .middle > ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 300px;
+    gap: 48px;
+  }
 
-.middle li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
+  .middle li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: grey;
+  }
 
 .middle div {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   border: 4px solid #3882f6;
   border-radius: 16px;
 }
 
 .middle p {
-  color: grey;
-  font-size: 10px;
-  width: 83px;
+  width: 166px;
   text-align: center;
 }
 
@@ -134,23 +131,22 @@ button {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 59px 29px;
+  padding: 117px 341px 117px 341px;
 }
 
 .quote > h1 {
   color: hsl(215, 10%, 30%);
-  font-size: 18px;
+  font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 
-.quote > h2 {
-  font-size: 16px;
-  text-align: right;
-}
+  .quote > h2 {
+    text-align: right;
+  }
 
 .bottom {
-  padding: 48px 26px;
+  padding: 96px 208px;
 }
 
 .bottom > .sign-up-box {
@@ -159,130 +155,13 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 30px;
+  padding: 48px 120px;
 }
-
-.sign-up-box p {
-  color: #e5e7eb;
-  font-size: 9px;
-  margin: 2px 0 0 0;
-}
-
-#sign-up-button-2 {
-  border: 2px solid #f9faf8;
-  /* padding: 7px 32px; */
-}
-
-.footer {
-  align-items: center;
-  background-color: #1f2937;
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-}
-
-.footer > p {
-  color: #e5e7eb;
-  font-size: 14px;
-}
-
-@media only screen and (min-width: 1440px) {
-  .upper {
-    padding: 22px 208px;
-  }
-
-  .header > .logo,
-  .sign-up-box > .left > h3 {
-    font-size: 24px;
-  }
-
-  .header > .links {
-    gap: 32px;
-    font-size: 18px;
-  }
-
-  .sub-middle {
-    flex-direction: row;
-    gap: 24px;
-    margin: 48px 0;
-  }
-
-  .sub-middle > .left {
-    flex: 1 1 0;
-    text-align: start;
-  }
-
-  .sub-middle > img {
-    flex: 1 1 0;
-  }
-
-  .sub-middle > .left > h1 {
-    font-size: 48px;
-  }
-
-  .sub-middle > .left > p {
-    font-size: 18px;
-    margin: 2px 0 14px 0;
-  }
-
-  button {
-    border-radius: 8px;
-    font-size: 17px;
-    padding: 9px 34px;
-  }
-
-  .middle {
-    padding-top: 50px;
-    padding-bottom: 100px;
-  }
-
-  .middle > h2 {
-    font-size: 36px;
-    margin-bottom: 50px;
-  }
-
-  .middle > ul {
-    flex-direction: row;
-    margin: 0 300px;
-    gap: 48px;
-  }
-
-  .middle li {
-    gap: 8px;
-  }
-
-  .middle div {
-    width: 160px;
-    height: 160px;
-  }
-
-  .middle p {
-    font-size: 16px;
-    width: 166px;
-  }
-
-  .quote {
-    padding: 117px 341px 117px 341px;
-  }
-
-  .quote > h1 {
-    font-size: 36px;
-  }
-
-  .quote > h2 {
-    font-size: 1.5em;
-  }
-
-  .bottom {
-    padding: 96px 208px;
-  }
-
-  .bottom > .sign-up-box {
-    padding: 48px 120px;
-  }
 
   .sign-up-box p {
-    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 0;
+    margin-top: 2px;
   }
 
   #sign-up-button-2 {
@@ -290,7 +169,16 @@ button {
     padding: 7px 32px;
   }
 
+  .footer {
+    align-items: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
   .footer > p {
+    color: #e5e7eb;
     font-size: 18px;
   }
 }
