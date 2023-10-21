@@ -55,23 +55,23 @@ p {
   flex: 1 1 0;
 }
 
-  .sub-middle img {
-    overflow: hidden;
-  }
+.sub-middle img {
+  overflow: hidden;
+}
 
-  .left > h1 {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0;
-  }
+.left > h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
 
-  .left > p {
-    color: #e5e7eb;
-    font-size: 18px;
-    margin-top: 2px;
-    margin-bottom: 14px;
-  }
+.left > p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 2px;
+  margin-bottom: 14px;
+}
 
 button {
   background-color: #3882f6;
@@ -99,21 +99,21 @@ button {
   margin-top: 0;
 }
 
-  .middle > ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 300px;
-    gap: 48px;
-  }
+.middle > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 300px;
+  gap: 48px;
+}
 
-  .middle li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    color: grey;
-  }
+.middle li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: grey;
+}
 
 .middle div {
   width: 160px;
@@ -141,9 +141,9 @@ button {
   font-style: italic;
 }
 
-  .quote > h2 {
-    text-align: right;
-  }
+.quote > h2 {
+  text-align: right;
+}
 
 .bottom {
   padding: 96px 208px;
@@ -158,27 +158,26 @@ button {
   padding: 48px 120px;
 }
 
-  .sign-up-box p {
-    color: #e5e7eb;
-    margin-bottom: 0;
-    margin-top: 2px;
-  }
+.sign-up-box p {
+  color: #e5e7eb;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
 
-  #sign-up-button-2 {
-    border: 2px solid #f9faf8;
-    padding: 7px 32px;
-  }
+#sign-up-button-2 {
+  border: 2px solid #f9faf8;
+  padding: 7px 32px;
+}
 
-  .footer {
-    align-items: center;
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
-  }
+.footer {
+  align-items: center;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
 
-  .footer > p {
-    color: #e5e7eb;
-    font-size: 18px;
-  }
+.footer > p {
+  color: #e5e7eb;
+  font-size: 18px;
 }
